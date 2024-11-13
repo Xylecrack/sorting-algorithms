@@ -12,8 +12,7 @@ void selectionSort(vector<int> &arr) {
         int min_idx = i;
 
         // Iterate through the unsorted portion
-        // to find the actual minimum
-        for (int j = i + 1; j < n; ++j) {
+               for (int j = i + 1; j < n; ++j) {
             if (arr[j] < arr[min_idx]) {
 
                 // Update min_idx if a smaller
